@@ -16,7 +16,10 @@ It is important to note that the model was trained using a ten-fold cross-valida
 **Since we used a ten-fold cross-validation method to evaluate the model's performance, each sample in the positive and negative datasets has the potential to be part of either the training set or the test set.**
 
 In the 'Independent testing dataset' folder, there is one file, described as follows:
-1） G4_independent_testing_dataset_positive.txt: This file represents the independent testing dataset. The sequences within are all positive samples, originating from G4 ChIP-seq experiments conducted on the 293T cell line (accession number GSE178668), derived from Homo sapiens. **Together with the negative samples from the training datasets, these sequences form the independent testing dataset.**
+
+1） G4_independent_testing_dataset_positive.txt: This file represents the independent testing dataset. The sequences within are all positive samples, originating from G4 ChIP-seq experiments conducted on the 293T cell line (accession number GSE178668), derived from Homo sapiens.
+
+**Together with the negative samples from the training datasets, these sequences form the independent testing dataset.**
 
 ### 2、CODE DETAILS
 We have one folders: 'code' and there are three files in it.
