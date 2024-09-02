@@ -13,6 +13,8 @@ It is important to note that the model was trained using a ten-fold cross-valida
 5) norm_pos_feature.csv: This file contains the normalized ratio features of the positive samples.
 6) norm_neg_feature.csv: This file contains the normalized ratio features of the negative samples.
 
+In the 'Independent validation data' folder, there are one file, which are as follows:
+1) G4_independent.txt. This represents the independent testing dataset.The sequences in it are all positive samples and originated from G4 ChIP-seq experiments conducted on the 293T cell line (accession number GSE178668) and derived from the Homo sapiens organism. It, along with the negative samples from the training datasets, forms an independent testing dataset.
 
 ### 2、CODE DETAILS
 We have one folders: 'code' and there are three files in it.
